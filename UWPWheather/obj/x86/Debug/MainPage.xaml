@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="UWPWheather.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPWheather"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Background="HotPink">
+        <StackPanel  HorizontalAlignment="Left" Padding="20" Height="400" Width="500">
+            <Button x:ConnectionId='2' Content="Tap to get Weather updates"                           
+                    HorizontalAlignment="Left"></Button>
+            <TextBlock x:ConnectionId='3' Name="ResultTextBlock" HorizontalAlignment="Center" ></TextBlock>
+            <Image x:ConnectionId='4' HorizontalAlignment="Center"   
+                  Name="MyImage" ></Image>
+        </StackPanel>
+    </StackPanel>
+</Page>
+
